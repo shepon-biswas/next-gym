@@ -42,7 +42,8 @@ const WhoWeAre = () => {
                 ></Image>
                 <h4 className="font-semibold text-xl my-3">Modern Equipments</h4>
                 </div>
-              <div className="text-center p-5"><Image
+              <div className="text-center p-5">
+                <Image
                   src={gymcenter}
                   alt="gymcenter image"
                   className="w-20 h-20 inline-flex justify-center"
@@ -51,11 +52,11 @@ const WhoWeAre = () => {
                 </div>
             </div>
           </div>
-          <div>
+          <div className=" overflow-hidden">
             <Image
               src={gymboy}
               alt="gymboy image"
-              className="rounded-lg"
+              className="rounded-lg  hover:scale-110 duration-300 hover:rounded-lg"
             ></Image>
           </div>
         </div>

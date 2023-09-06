@@ -23,7 +23,7 @@ const navLinks = [
 const NavBar = () => {
   return (
     <>
-      <div className=" bg-orange-500 py-3 ">
+      <div className=" bg-orange-600 py-3 text-white ">
         <nav className="flex justify-between items-center w-10/12 mx-auto ">
           <Link href={'/'}>
           <h1 className="text-2xl font-bold">
