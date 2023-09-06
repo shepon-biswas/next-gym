@@ -5,6 +5,7 @@ import Motive from "@/components/Motive/Motive";
 import WeAreBest from "@/components/WeAreBest/WeAreBest";
 import WhatWeOffer from "@/components/WhatWeOffer/WhatWeOffer";
 import WhoWeAre from "@/components/WhoWeAre/WhoWeAre";
+import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 
  const HomePage = () =>{
   return (
@@ -14,6 +15,7 @@ import WhoWeAre from "@/components/WhoWeAre/WhoWeAre";
       <WhoWeAre></WhoWeAre>
       <WhatWeOffer></WhatWeOffer>
       <WeAreBest></WeAreBest>
+      <WhyChooseUs></WhyChooseUs>
     </>
   )
 }
