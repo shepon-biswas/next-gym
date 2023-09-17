@@ -1,5 +1,6 @@
 'use client'
 
+import Coaches from "@/components/Coaches/Coaches";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import Motive from "@/components/Motive/Motive";
 import WeAreBest from "@/components/WeAreBest/WeAreBest";
@@ -16,6 +17,7 @@ import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
       <WhatWeOffer></WhatWeOffer>
       <WeAreBest></WeAreBest>
       <WhyChooseUs></WhyChooseUs>
+      <Coaches></Coaches>
     </>
   )
 }
